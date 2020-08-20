@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <link rel="stylesheet" href="Assets/css/user.css">
+</head>
+<body>
+    <header>
+        <h1>Portal IDEV</h1>
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <img src="Assets/img/pngwing.com.png" id="btnBusca" alt="Buscar" width="32px"/>
+          </div>
+          <h3 id="resultadoBusca"></h3><button id="del" class="btn1" >Excluir</button>
+    </header>
+    <section class="Login">
+        <div class="form-style-5"> 
+            <form method="POST" id="form">
+                <label>Email</label>
+                <input type="email" id="email">
+                <label>Senha</label>
+                <input type="password" id="password">
+                <label>Usuário e Administrador</label>
+                <select name="select"   id="admin">
+                    <option value="Sim">Sim</option> 
+                    <option value="Não" selected>Não</option>
+                </select>
+                <input type="submit" id="submit" class="btn">
+            </form>
+        </div>
+        <table class="texto linhasAlternadas" >
+            <thead>
+                <th>Id</th>
+                <th>Email</th>
+                <th>Administrador</th>
+            </thead>
+            <table>
+    </section>
+    
+    <script src="Assets/js/Users.js"></script>
+</body>
+</html>
